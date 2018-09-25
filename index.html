@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>To do app</title>
+    <style>
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 500px;
+        }
+
+        li {
+            border: 1px solid #ccc;
+            background: #eee;
+            padding: 5px 10px;
+            color: #000;
+        }
+
+        li span {
+            padding-left: 10px;
+        }
+
+        .checked {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>To Do App</h1>
+    <p>
+        <input type="text" id="inItemText" placeholder="enter task" />
+        <button>Add</button>
+    </p>
+    <ul id="todolist"></ul>
+    <script src="index.js"></script>
+</body>
+
+</html>
